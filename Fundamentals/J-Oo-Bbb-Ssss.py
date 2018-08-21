@@ -1,5 +1,7 @@
 #Create a function that will do the following:
-    #print accum("dEsGc") as "D-Ee-Sss-Gggg-Ccccc"
+    #accum("abcd")    # "A-Bb-Ccc-Dddd"
+    #accum("RqaEzty") # "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+    #accum("cwAt")    # "C-Ww-Aaa-Tttt"
 
 
 def accum(s):
