@@ -10,17 +10,3 @@
 #['O','Q','R','S'] -> 'P'
 
 #(Use the English alphabet with 26 letters!)
-alphabet = "abcdefghijklmnopqrstuvwxyz"
-list = []
-full = []
-count = 0
-list.append(tuple(letter for letter in alphabet))
-
-def find_missing_letter(chars):
-    for x in chars:
-        for letter in alphabet:
-            if letter == x.lower():
-                full.append(x)
-    return(full)
-
-find_missing_letter(['a','b','c','e','f'])
